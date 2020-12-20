@@ -15,3 +15,12 @@ WebdriverIO v5 : https://webdriver.io
 VS Code: https://code.visualstudio.com/
 
 Node: https://nodejs.org/en/
+
+  * Steps to prepare a project from scratch
+  * `npm init`
+  * `npm install webdriverio --save-dev`
+  * `npm install @wdio/cli`
+  * `./node_modules/.bin/wdio config`                 
+  * `npm install chai --save-dev`
+  * `npm install chai-webdriverio --save-dev`
+  * `npm install local-runner --save-dev`
