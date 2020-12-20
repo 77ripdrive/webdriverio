@@ -4,7 +4,7 @@
   "description": "This is a webdriverio course by Julia Pottinger",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/.bin/wdio ./wdio.conf.js",
+    "test": "./node_modules/.bin/wdio ./wdio.conf.js",
     "actions": "./node_modules/.bin/wdio ./wdio.conf.js --suite actions",
     "login": "./node_modules/.bin/wdio ./wdio.conf.js --suite login"
   },
